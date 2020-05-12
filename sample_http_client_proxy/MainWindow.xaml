@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <DockPanel>
-        <Button Click="OnMainBtn"></Button>
+        <Button DockPanel.Dock="Top" MinHeight="30" Click="OnMainBtn" Content="Main"></Button>
+        <Button DockPanel.Dock="Top" Click="OnOldTypeBtn" MinHeight="30" Content="Old"></Button>
+        <Button DockPanel.Dock="Top" MinHeight="30" Click="OnMainBtnDirectProxy" Content="MainDirectProxy"></Button>
+        <Button DockPanel.Dock="Top" Click="OnOldTypeBtnDirectProxy" MinHeight="30" Content="OldDirectProxy"></Button>
         
     </DockPanel>
 </Window>
